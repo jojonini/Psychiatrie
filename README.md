@@ -77,16 +77,16 @@ Diese Zahlen lagen im Januar für das Jahr 2019 bereits vor. Sie werden von den 
 
 Der Aufwand für die Beschaffung und Auswertung der Daten lag deutlich höher als ursprünglich erwartet, obschon ich letztendlich auf einige Auswertungen verzichtete. Andererseits habe ich mich sehenden Auges in diese Aufgabe gestürzt, auch um das alles mal durchzuziehen und den maximalen Lerneffekt zu haben. Als Python-Anfänger verbringt man schnell einmal Stunden beim Coden, ohne am Schluss viel weiter zu sein. 
 
-Sehr aufwändig war bereits das Scraping. Nach viel Vorarbeit in der ersten Phase (2019) dachte ich ja, der Code läuft, alle Daten sind da. Erst bei den ersten Analysen (Anfang 2020)  bemerkte ich, dass die Error 500-Dateien nicht alles leere IDs waren, wie ursprünglich angenommen, sondern zum Teil auch valide, aber vom Scraper übersprungene Datensätze. So erweiterte ich den Code im Januar und führte das Scraping erneut durch. 
+Sehr zeitintensiv war bereits das Scraping. Nach viel Vorarbeit in der ersten Phase (2019) dachte ich ja, der Code läuft, alle Daten sind da. Erst bei den weiteren Analysen (Anfang 2020) bemerkte ich, dass die Error 500-Dateien nicht alles leere IDs waren, wie ursprünglich angenommen, sondern zum Teil auch valide, aber vom Scraper übersprungene Datensätze. So erweiterte ich den Code im Januar und führte das Scraping erneut zweimal durch. 
 
-Auch das Parsing der html-Datensätze mit BeautifulSoup war schwieriger und zeitintensiver als nach den ersten erfolgreichen Testläufen vermutet. Erst bei der Datenanalyse mit Pandas bemerkte ich Fehlzuordnungen, die ich bereinigen musste. Entsprechend verunsichert war ich deshalb über die Qualität der Resultate, zumal diese noch deutlicher (im Sinne der These) ausfielen, als erwartet. 
-Deshalb floss noch einiges an Arbeits- bzw. Freizeit in den Plausibilätscheck der Daten. Flott hingegen lief die Analyse der im Januar aufgestöberten SIWF-Daten zu den Assistenzärzten, die ich dank Pandas zügig bearbeiten konnte. 
-
-Bei einer ähnlichen Recherche, evtl. sogar mit denselben Datensätzen, kann ich auf diese Vorarbeit zurückgreifen. Als normales Projekt hätte ich aber den Stecker viel früher ziehen müssen. Ein solcher Aufwand liegt notmalerweise nicht drin, zumal die Hauptaussage auch mit bereits vorhandenen Datensätzen gestützt gewesen wäre, wenn auch nicht in dieser Qualität und Aktualität, die nur dank dem Scraping möglich war. 
+Auch das Parsing der html-Datensätze mit BeautifulSoup war schwieriger und zeitintensiver als nach den ersten erfolgreichen Testläufen vermutet. Erst bei der Datenanalyse mit Pandas bemerkte ich Fehlzuordnungen, die ich bereinigen musste (Regex). Entsprechend verunsichert war ich deshalb über die Qualität der Resultate, zumal diese noch deutlicher (im Sinne der These) ausfielen, als erwartet. Deshalb floss noch einiges an Arbeits- bzw. Freizeit in den Plausibilätscheck der Daten. 
 
 Gerne hätte ich noch weitere Auswertungen der MedReg-Daten vorgenommen, vor allem ein Vergleich der Entwicklung über verschiedene Facharztgruppen hinweg und eine Analyse der MedReg-Daten bezogen auf die Kantone oder Regionen mit Geopandas. Doch nach den Erfahrungen beim aufwändigen Parsen und Bereinigen der Psychiatrie-Daten musste ich darauf verzichten. Zudem erlauben diesbezüglich auch die Daten zu den Assistenzärzten Aussagen über die Fachrichtungen und unterschiedliche Versorgung der Regionen. 
-
+Für solche Auswertungen könnte ich später sicher auf die grosse Vorarbeit zurückgreifen. 
+Als normales Projekt hätte ich aber den Stecker viel früher gezogen. Ein solcher Aufwand liegt notmalerweise nicht drin, zumal die Hauptaussage auch mit bereits vorhandenen Datensätzen gestützt gewesen wäre, wenn auch nicht in dieser Qualität und Aktualität, die nur dank dem Scraping möglich war. 
 Im TV ist ja normalerweise die Recherche 10-30% des gesamten Arbeitsaufwands, der Rest ist Organisation, Dreh, Schnitt und Postproduction. Hier war's mal fast umgekehrt, trotz über 15 Beitragsminuten, alleine bei «Puls». 
+
+Flott hingegen lief die Analyse der im Januar aufgestöberten SIWF-Daten zu den Assistenzärzten, die ich dank Pandas zügig bearbeiten konnte. 
 
 **1\. Phase: Scraper entwickeln**
 
