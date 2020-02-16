@@ -22,8 +22,8 @@ Trotz weltweit höchster Psychiatriedichte «importiert» die Schweiz weiterhin 
 Es war mir von Beginn weg klar, dass dies ein umfangreiches und potentiell ausuferndes Projekt werden kann. Das BAG lehnte es ab, die MedReg-Daten komplett als anonymisiertes Datenfile bereit zu stellen. Deshalb entschied ich mich für ein Scraping der gesamten Datenbank. Ich würde so einerseits über die aktuellsten Daten bis Ende 2019 verfügen sowie auch personenbezogene Auswertungen vornehmen können. Ein gezieltes Scraping z.B. nur der Ärzteschaft erwies sich als nicht möglich. 
 Das bedeutete für mich als Phyton-Frischling, das der zeitliche Aufwand nur schwer abzuschätzen war. Einerseits musste ich einen funktionierenden Scraper bauen und andererseits die grossen Datenmengen auch noch korrekt parsen, das heisst in eine verwertbare Form überführen. 
 Ich entscheid mich aus zwei Gründen trotzdem für das Vorhaben:
-1. Knowhow-Aufbau: Scraping, Parsing und Pandas in der praktischen Anwendung. Und die Möglichkeit die gewonnen Daten und die vertieften Programmierkenntnisse allenfalls für spätere Projekte zu verwenden. 
-2. Journalistischer Impact: Das Thema schwebt mir seit Jahren im Hinterkopf. Die aktuellen Daten und die Möglichkeit, diese nach eigenen Kriterien auszuwerten, würden es mir erlauben, einen eigenen Aufhänger für die Publikation der Story zu schaffen und damit auch strukturelle Mängel in der psychiatrischen Versorgung der Schweiz zu thematisieren.
+1. **Knowhow-Aufbau:** Scraping, Parsing und Pandas in der praktischen Anwendung. Und die Möglichkeit die gewonnen Daten und die vertieften Programmierkenntnisse allenfalls für spätere Projekte zu verwenden. 
+2. **Journalistischer Impact:** Das Thema schwebt mir seit Jahren im Hinterkopf. Die aktuellen Daten und die Möglichkeit, diese nach eigenen Kriterien auszuwerten, würden es mir erlauben, einen eigenen Aufhänger für die Publikation der Story zu schaffen und damit auch strukturelle Mängel in der psychiatrischen Versorgung der Schweiz zu thematisieren.
 
 ![Spider](graphics/spider.jpg)
 
@@ -37,18 +37,20 @@ Ich entscheid mich aus zwei Gründen trotzdem für das Vorhaben:
 ### Briefing-Personen
 
 **Briefing Person 1: Thomas Ihde**
+
 Chefarzt Psychiatriestation Spital FMI (Berner Oberland) sowie Präsident der Patientenorganisation Pro Mente Sana 
-	- Fremdsprachige Psychiater: ja, relativ häufiges Problem. immer wieder auch von Patienten angesprochen. Selbst bei deutschen Ärzten ein Problem, da nicht alle Dialekt sprechen bzw. gut verstehen. 
-	- Beurteilung, ob jemand psychotisch ist oder nicht: äusserst heikel, wenn jemand Sprache nicht gut versteht oder spricht
-	- wegen der grossen Nachfrage arbeiten gewisse Ärzte in der Psychiatrie, die eigentlich eine andere Fachrichtung bevorzugen würden
-	- Eigentlich kein Mangel (wie vom Psychiatrieverband SGPP behauptet), sondern eine Fehlversorgung, da regional sehr unterschiedlich: in urbanen Zentren viele, auf dem Land zu wenige, in eigenen Praxen viele, in Klinken zu wenige. Andere Länder sind viel weniger ärztezentriert sondern breiter aufgestellt, wo auch Psychologinnen oder Pflegefachpersonen Funktionen übernehmen, die in Schweizer Kliniken (Assistenz-)Ärzte innehaben.
+*Fremdsprachige Psychiater: ja, relativ häufiges Problem. immer wieder auch von Patienten angesprochen. Selbst bei deutschen Ärzten ein Problem, da nicht alle Dialekt sprechen bzw. gut verstehen. 
+*Beurteilung, ob jemand psychotisch ist oder nicht: äusserst heikel, wenn jemand Sprache nicht gut versteht oder spricht
+*wegen der grossen Nachfrage arbeiten gewisse Ärzte in der Psychiatrie, die eigentlich eine andere Fachrichtung bevorzugen würden
+*Eigentlich kein Mangel (wie vom Psychiatrieverband SGPP behauptet), sondern eine Fehlversorgung, da regional sehr unterschiedlich: in urbanen Zentren viele, auf dem Land zu wenige, in eigenen Praxen viele, in Klinken zu wenige. Andere Länder sind viel weniger ärztezentriert sondern breiter aufgestellt, wo auch Psychologinnen oder Pflegefachpersonen Funktionen übernehmen, die in Schweizer Kliniken (Assistenz-)Ärzte innehaben.
 
 **Briefing Person 2; Angela Brucher**
-Chefärztin Psychiatrie-Dienste Süd des Kantons St. Gallen, einer Klinik mit einem hohen Anteil an Ärzten, die aus Nicht-EU-Staaten stammen, die meisten davon aus Serbien (7)
-	- Bei Stelleninseraten für Psychiaterstellen, wenig bis gar keine Anmeldungen. Ärzte finden sich in Osteuropa und auch im arabischen Raum. Das bedeutet mehr Aufwand, auch für die sprachliche Integration. 
-	- Es kommt zu schwierigen Situationen, wenn Patienten nur Dialekt sprechen. Vorteil: auch für ausländische Patienten ist manchmal jemand in der Muttersprache verfügbar.
-	- Gründe für das mangelnde Interesse der Schweizer Ärztinnen und Ärzte: zu wenig Ärzte überhaupt in der Schweiz, durch Zulassungsbeschränkung. Prestige ist nicht so hoch, Facharzt mit 6 Jahren lang und Löhne im Vergleich relativ tief.
-	- In der Klinik bleiben viele Ärztinnen und Ärzte am wenigsten. Die Arbeitsbedingungen sind mit Notfall- und Nachtdiensten stressiger. Ambulatorien sind beliebter. Viele ausgebildeten Psychiater lassen sich später auch in eigener Praxis nieder. 
+
+Chefärztin Psychiatrie-Dienste Süd des Kantons St. Gallen, einer Klinik mit einem hohen Anteil an Ärzten, die aus Nicht-EU-Staaten stammen, die meisten davon aus Serbien (7).
+*Bei Stelleninseraten für Psychiaterstellen, wenig bis gar keine Anmeldungen. Ärzte finden sich in Osteuropa und auch im arabischen Raum. Das bedeutet mehr Aufwand, auch für die sprachliche Integration. 
+*Es kommt zu schwierigen Situationen, wenn Patienten nur Dialekt sprechen. Vorteil: auch für ausländische Patienten ist manchmal jemand in der Muttersprache verfügbar.
+*Gründe für das mangelnde Interesse der Schweizer Ärztinnen und Ärzte: zu wenig Ärzte überhaupt in der Schweiz, durch Zulassungsbeschränkung. Prestige ist nicht so hoch, Facharzt mit 6 Jahren lang und Löhne im Vergleich relativ tief.
+*In der Klinik bleiben viele Ärztinnen und Ärzte am wenigsten. Die Arbeitsbedingungen sind mit Notfall- und Nachtdiensten stressiger. Ambulatorien sind beliebter. Viele ausgebildeten Psychiater lassen sich später auch in eigener Praxis nieder. 
 
 ### Die Datenquellen
 Obschon das Gesundheitswesen einen wachsenden Brocken unserer Volkswirtschaft darstellt (rund 12% des BIP) und die Kosten jährlich mehr steigen als die Teuerung, gibt es dazu in vielen Bereichen nur unzureichende oder sogar widersprüchliche Daten. Das ist leider auch bei den Ärzten nicht anders. Das fängt schon bei der Zahl an, wie viele Ärztinnen und Ärzte in welchem Bereich, in welchem Umfang berufstätig sind. 
@@ -75,16 +77,16 @@ Diese Zahlen lagen im Januar für das Jahr 2019 bereits vor. Sie werden von den 
 ### Arbeitsprotokoll
 **Bitte festhalten: Python-Anfänger und TV-Produktion!**
 
-Der Aufwand für die Beschaffung und Auswertung der Daten lag deutlich höher als ursprünglich erwartet, obschon ich letztendlich auf einige Auswertungen verzichtete. Andererseits habe ich mich sehenden Auges in diese Aufgabe gestürzt, auch um das alles mal durchzuziehen und den maximalen Lerneffekt zu haben. Als Python-Anfänger verbringt man schnell einmal Stunden beim Coden, ohne am Schluss viel weiter zu sein. 
+Der Aufwand für die Beschaffung und Auswertung der Daten lag deutlich höher als ursprünglich erwartet, obschon ich letztendlich auf einige Auswertungen verzichtete. Andererseits habe ich mich sehenden Auges in diese Aufgabe gestürzt, auch um das alles mal durchzuziehen und den maximalen Lerneffekt zu haben. Mir war aus dem Kurs bewusst: Als Python-Anfänger verbringt man schnell einmal Stunden beim Coden, vielleicht ohne am Schluss wirklich weiter zu sein. 
 
-Sehr zeitintensiv war bereits das Scraping. Nach viel Vorarbeit in der ersten Phase (2019) dachte ich ja, der Code läuft, alle Daten sind da. Erst bei den weiteren Analysen (Anfang 2020) bemerkte ich, dass die Error 500-Dateien nicht alles leere IDs waren, wie ursprünglich angenommen, sondern zum Teil auch valide, aber vom Scraper übersprungene Datensätze. So erweiterte ich den Code im Januar und führte das Scraping erneut zweimal durch. 
+Sehr zeitintensiv war bereits das Scraping. Nach viel Vorarbeit in der ersten Phase (2019) dachte ich ja, der Code läuft, alle Daten sind da. Erst bei den weiteren Analysen (Anfang 2020) bemerkte ich, dass die Error 500-Dateien nicht alles leere IDs waren, wie ursprünglich angenommen, sondern zum Teil auch valide, aber beim Scraper übersprungene Datensätze. So erweiterte ich den Code im Januar und führte das Scraping erneut zweimal durch. 
 
 Auch das Parsing der html-Datensätze mit BeautifulSoup war schwieriger und zeitintensiver als nach den ersten erfolgreichen Testläufen vermutet. Erst bei der Datenanalyse mit Pandas bemerkte ich Fehlzuordnungen, die ich bereinigen musste (Regex). Entsprechend verunsichert war ich deshalb über die Qualität der Resultate, zumal diese noch deutlicher (im Sinne der These) ausfielen, als erwartet. Deshalb floss noch einiges an Arbeits- bzw. Freizeit in den Plausibilätscheck der Daten. 
 
 Gerne hätte ich noch weitere Auswertungen der MedReg-Daten vorgenommen, vor allem ein Vergleich der Entwicklung über verschiedene Facharztgruppen hinweg und eine Analyse der MedReg-Daten bezogen auf die Kantone oder Regionen mit Geopandas. Doch nach den Erfahrungen beim aufwändigen Parsen und Bereinigen der Psychiatrie-Daten musste ich darauf verzichten. Zudem erlauben diesbezüglich auch die Daten zu den Assistenzärzten Aussagen über die Fachrichtungen und unterschiedliche Versorgung der Regionen. 
 Für solche Auswertungen könnte ich später sicher auf die grosse Vorarbeit zurückgreifen. 
-Als normales Projekt hätte ich aber den Stecker viel früher gezogen. Ein solcher Aufwand liegt notmalerweise nicht drin, zumal die Hauptaussage auch mit bereits vorhandenen Datensätzen gestützt gewesen wäre, wenn auch nicht in dieser Qualität und Aktualität, die nur dank dem Scraping möglich war. 
-Im TV ist ja normalerweise die Recherche 10-30% des gesamten Arbeitsaufwands, der Rest ist Organisation, Dreh, Schnitt und Postproduction. Hier war's mal fast umgekehrt, trotz über 15 Beitragsminuten, alleine bei «Puls». 
+
+Im Fernsehen ist ja normalerweise die Recherche 10-30% des gesamten Arbeitsaufwands, der Rest ist Organisation, Dreh, Schnitt und Postproduction. Hier war's mal fast umgekehrt, trotz über 15 Beitragsminuten, alleine bei «Puls». 
 
 Flott hingegen lief die Analyse der im Januar aufgestöberten SIWF-Daten zu den Assistenzärzten, die ich dank Pandas zügig bearbeiten konnte. 
 
