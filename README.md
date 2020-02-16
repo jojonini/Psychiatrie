@@ -1,4 +1,4 @@
-# Schweizer Psychiatrie im Notstand
+#Psychiatrie im Notstand
  Abschlussarbeit von Jörg Niggli, CAS Datenjournalismus 2019/2020
 
 Ausgerechnet in der Psychiatrie, wo die Sprache und das kulturelle Verständnis wichtig sind, hat es immer weniger Schweizer Ärzte. In die Lücke springen Psychiaterinnen und Psychiater aus dem Ausland ...
@@ -42,18 +42,18 @@ Ich entscheid mich aus zwei Gründen trotzdem für das Vorhaben:
 **Briefing Person 1: Thomas Ihde**
 
 Chefarzt Psychiatriestation Spital FMI (Berner Oberland) sowie Präsident der Patientenorganisation Pro Mente Sana 
-*Fremdsprachige Psychiater: ja, relativ häufiges Problem. immer wieder auch von Patienten angesprochen. Selbst bei deutschen Ärzten ein Problem, da nicht alle Dialekt sprechen bzw. gut verstehen. 
-*Beurteilung, ob jemand psychotisch ist oder nicht: äusserst heikel, wenn jemand Sprache nicht gut versteht oder spricht
-*wegen der grossen Nachfrage arbeiten gewisse Ärzte in der Psychiatrie, die eigentlich eine andere Fachrichtung bevorzugen würden
-*Eigentlich kein Mangel (wie vom Psychiatrieverband SGPP behauptet), sondern eine Fehlversorgung, da regional sehr unterschiedlich: in urbanen Zentren viele, auf dem Land zu wenige, in eigenen Praxen viele, in Klinken zu wenige. Andere Länder sind viel weniger ärztezentriert sondern breiter aufgestellt, wo auch Psychologinnen oder Pflegefachpersonen Funktionen übernehmen, die in Schweizer Kliniken (Assistenz-)Ärzte innehaben.
+* Fremdsprachige Psychiater: ja, relativ häufiges Problem. immer wieder auch von Patienten angesprochen. Selbst bei deutschen Ärzten ein Problem, da nicht alle Dialekt sprechen bzw. gut verstehen. 
+* Beurteilung, ob jemand psychotisch ist oder nicht: äusserst heikel, wenn jemand Sprache nicht gut versteht oder spricht
+* wegen der grossen Nachfrage arbeiten gewisse Ärzte in der Psychiatrie, die eigentlich eine andere Fachrichtung bevorzugen würden
+* Eigentlich kein Mangel (wie vom Psychiatrieverband SGPP behauptet), sondern eine Fehlversorgung, da regional sehr unterschiedlich: in urbanen Zentren viele, auf dem Land zu wenige, in eigenen Praxen viele, in Klinken zu wenige. Andere Länder sind viel weniger ärztezentriert sondern breiter aufgestellt, wo auch Psychologinnen oder Pflegefachpersonen Funktionen übernehmen, die in Schweizer Kliniken (Assistenz-)Ärzte innehaben.
 
 **Briefing Person 2; Angela Brucher**
 
 Chefärztin Psychiatrie-Dienste Süd des Kantons St. Gallen, einer Klinik mit einem hohen Anteil an Ärzten, die aus Nicht-EU-Staaten stammen, die meisten davon aus Serbien (7).
-*Bei Stelleninseraten für Psychiaterstellen, wenig bis gar keine Anmeldungen. Ärzte finden sich in Osteuropa und auch im arabischen Raum. Das bedeutet mehr Aufwand, auch für die sprachliche Integration. 
-*Es kommt zu schwierigen Situationen, wenn Patienten nur Dialekt sprechen. Vorteil: auch für ausländische Patienten ist manchmal jemand in der Muttersprache verfügbar.
-*Gründe für das mangelnde Interesse der Schweizer Ärztinnen und Ärzte: zu wenig Ärzte überhaupt in der Schweiz, durch Zulassungsbeschränkung. Prestige ist nicht so hoch, Facharzt mit 6 Jahren lang und Löhne im Vergleich relativ tief.
-*In der Klinik bleiben viele Ärztinnen und Ärzte am wenigsten. Die Arbeitsbedingungen sind mit Notfall- und Nachtdiensten stressiger. Ambulatorien sind beliebter. Viele ausgebildeten Psychiater lassen sich später auch in eigener Praxis nieder. 
+* Bei Stelleninseraten für Psychiaterstellen, wenig bis gar keine Anmeldungen. Ärzte finden sich in Osteuropa und auch im arabischen Raum. Das bedeutet mehr Aufwand, auch für die sprachliche Integration. 
+* Es kommt zu schwierigen Situationen, wenn Patienten nur Dialekt sprechen. Vorteil: auch für ausländische Patienten ist manchmal jemand in der Muttersprache verfügbar.
+* Gründe für das mangelnde Interesse der Schweizer Ärztinnen und Ärzte: zu wenig Ärzte überhaupt in der Schweiz, durch Zulassungsbeschränkung. Prestige ist nicht so hoch, Facharzt mit 6 Jahren lang und Löhne im Vergleich relativ tief.
+* In der Klinik bleiben viele Ärztinnen und Ärzte am wenigsten. Die Arbeitsbedingungen sind mit Notfall- und Nachtdiensten stressiger. Ambulatorien sind beliebter. Viele ausgebildeten Psychiater lassen sich später auch in eigener Praxis nieder. 
 
 ### Die Datenquellen
 Obschon das Gesundheitswesen einen wachsenden Brocken unserer Volkswirtschaft darstellt (rund 12% des BIP) und die Kosten jährlich mehr steigen als die Teuerung, gibt es dazu in vielen Bereichen nur unzureichende oder sogar widersprüchliche Daten. Das ist leider auch bei den Ärzten nicht anders. Das fängt schon bei der Zahl an, wie viele Ärztinnen und Ärzte in welchem Bereich, in welchem Umfang berufstätig sind. 
@@ -63,30 +63,38 @@ Für die Datenrecherche zu den Psychiaterinnen und Psychiatern wertete ich haupt
 **1. Das Medizinalberuferegister [MedReg](https://www.medregom.admin.ch/DE)**
 
 Im MedReg waren per Ende 2019 insgesamt 5413 Personen registriert, die über einen Facharzttitel «Psychiaterie und Psychotherapie» verfügen. Aus diesem Datenpool wurde ausgewertet, in welchem Land diese Psychiaterinnen und Psychiater ihr Medizinstudium (Arztdiplom) absolviert haben. 
+
 Keine genaue Aussage erlaubt das MedReg hingegen darüber, wie viele dieser registrierten Ärztinnen und Ärzte tatsächlich berufstätig sind. 4415 der 5413 Personen mit anerkanntem Psychiatrie-Facharzttitel verfügten per Ende Jahr gemäss dem Register über eine erteilte Berufsausübungsbewilligung. Allerdings hiess es beim BAG Nachfrage, dass Ärzte auch ohne eine solche Bewilligung tätig sein können, wenn auch nicht in eigener fachlicher Verantwortung. 
+
 Die Ärztegesellschaft FMH kommt in ihrer [Statistik](https://www.fmh.ch/themen/aerztestatistik/fmh-aerztestatistik.cfm#i131905)
 für 2018 insgesamt auf 3814 Psychiater.  Gemäss dem Gesundheitsobservatorium [Obsan](https://www.bag.admin.ch/dam/bag/de/dokumente/berufe-gesundheitswesen/medizinalberufe/plattform-zukunft-aerztliche-bildung/Bericht%20Obsan_Ermittlung%20des%20zuk%C3%BCnftigen%20Bestands%20und%20Bedarfs%20an%20%C3%84rztinnen%20und%20%C3%84rzten%20nach%20Fachgebiet_Erstes%20Berechnungsmodell.pdf.download.pdf/Bericht%20Obsan_Ermittlung%20des%20zuk%C3%BCnftigen%20Bestands%20und%20Bedarfs%20an%20%C3%84rztinnen%20und%20%C3%84rzten%20nach%20Fachgebiet_Erstes%20Berechnungsmodell.pdf) hat auch diese Statistik Mängel: «Die FMH-Ärztestatistik erfasst gemäss Schätzung ca. 95% der Ärztinnen und Ärzte in der Schweiz. Sie weist insbesondere bei den Assistenzärztinnen und -ärzten sowie den ausländischen Ärztinnen und Ärzten noch Lücken auf.»
+
 Da es bei meiner Recherche nicht um die Anzahl der berufstätigen Psychiaterinnen und Psychiatern sondern um ein Bild über die Herkunft der Ärzte und die Entwicklung des Zustroms ausländischer Fachkräfte ging, erlaubten die MedReg-Daten diesbezüglich die besten Aussagen. Sie werden auch vom Obsan für solche Auswertungen herangezogen. 
+
 Alle durchgeführten Analysen mit den MedReg-Daten sind retrospektiv. Das MedReg ist ein Register, dem laufend Daten neu hinzufügt oder gelöscht werden (wenn zum Beispiel eine Personen verstirbt oder wieder auswandert). Dennoch ergaben Quervergleiche meiner Resultate mit Datensätzen des BAG und des BFS aus den Vorjahren nur geringe Abweichungen (bis ca. 1% pro Jahr), die mit Mutationen in der Zwischenzeit zu erklären sind. 
 
 
-**2. [Weiterbildungsstatistik des SIWF]( https://www.siwf.ch/themen/statistik.cfm)**
+**2. Weiterbildungsstatistik des SIWF**
 
-Ein weitere Analyse erfolgte mit den Daten des Instituts für medizinische Weiter- und Fortbildung SIWF. Sie erlauben einen Blick in die Kliniken und Ambulatorien, wo Assistenzärzte einen grossen Teil der Arbeit an der Front erledigen. Zudem konnte ich diese Daten auch nach regionalen Gesichtspunkten auswerten: welche Kliniken müssen in welchem Masse auf ausländische Ärztinnen und Ärzte setzen, und woher kommen diese (EU oder Nicht-EU)?
+Ein weitere Analyse erfolgte mit den [Daten]( https://www.siwf.ch/themen/statistik.cfm) des Instituts für medizinische Weiter- und Fortbildung SIWF. Sie erlauben einen Blick in die Kliniken und Ambulatorien, wo Assistenzärzte einen grossen Teil der Arbeit an der Front erledigen. Zudem konnte ich diese Daten auch nach regionalen Gesichtspunkten auswerten: welche Kliniken müssen in welchem Masse auf ausländische Ärztinnen und Ärzte setzen, und woher kommen diese (EU oder Nicht-EU)?
+
 Diese Zahlen lagen im Januar für das Jahr 2019 bereits vor. Sie werden von den Kliniken direkt dem SIWF gemeldet. 
-
 
 
 ### Arbeitsprotokoll
 **Bitte festhalten: Viele Daten, Python-Anfänger und TV-Produktion!**
 
-Der Aufwand für die Beschaffung und Auswertung der Daten lag deutlich höher als ursprünglich erwartet, obschon ich letztendlich auf einige Auswertungen verzichtete. Andererseits habe ich mich sehenden Auges in diese Aufgabe gestürzt, auch um das alles mal durchzuziehen und den maximalen Lerneffekt zu haben. Mir war aus dem Kurs bewusst: Als Python-Anfänger verbringt man schnell einmal Stunden beim Coden, vielleicht ohne am Schluss wirklich weiter zu sein. 
+Der Aufwand für die Beschaffung und Auswertung der Daten lag noch höher als ursprünglich erwartet, obschon ich auf einige Auswertungen verzichtetet habe. Andererseits habe ich mich sehenden Auges in dieses Vorhaben gestürzt, auch um das alles mal durchzuziehen und den maximalen Lerneffekt zu haben. Mir war aus dem Kurs bewusst: Als Python-Anfänger verbringt man schnell einmal Stunden beim Coden, vielleicht ohne am Schluss wirklich weiter zu sein. 
 
-Sehr zeitintensiv war bereits das Scraping. Nach viel Vorarbeit in der ersten Phase (2019) dachte ich ja, der Code läuft, alle Daten sind da. Erst bei den weiteren Analysen (Anfang 2020) bemerkte ich, dass die Error 500-Dateien nicht alles leere IDs waren, wie ursprünglich angenommen, sondern zum Teil auch valide, aber beim Scraper übersprungene Datensätze. So erweiterte ich den Code im Januar und führte das Scraping erneut zweimal durch. 
+Sehr zeitintensiv war bereits das Scraping. Nach viel Vorarbeit in der ersten Phase (2019) dachte ich ja: «Der Code läuft, alle Daten sind da.»
 
-Auch das Parsing der html-Datensätze mit BeautifulSoup war schwieriger und zeitintensiver als nach den ersten erfolgreichen Testläufen vermutet. Erst bei der Datenanalyse mit Pandas bemerkte ich Fehlzuordnungen, die ich bereinigen musste (Regex). Entsprechend verunsichert war ich deshalb über die Qualität der Resultate, zumal diese noch deutlicher (im Sinne der These) ausfielen, als erwartet. Deshalb floss noch einiges an Arbeits- bzw. Freizeit in den Plausibilätscheck der Daten. 
+Erst bei den weiteren Analysen (Anfang 2020) bemerkte ich, dass die Error 500-Dateien nicht alles leere IDs waren, wie ursprünglich angenommen, sondern zum Teil auch valide, aber beim Scraper übersprungene Datensätze. So erweiterte ich den Code im Januar und führte das Scraping erneut zweimal durch. 
 
-Gerne hätte ich noch weitere Auswertungen der MedReg-Daten vorgenommen, vor allem ein Vergleich der Entwicklung über verschiedene Facharztgruppen hinweg und eine Analyse der MedReg-Daten bezogen auf die Kantone oder Regionen mit Geopandas. Doch nach den Erfahrungen beim aufwändigen Parsen und Bereinigen der Psychiatrie-Daten musste ich darauf verzichten. Zudem erlauben diesbezüglich auch die Daten zu den Assistenzärzten Aussagen über die Fachrichtungen und unterschiedliche Versorgung der Regionen. 
+Auch das Parsing der html-Datensätze mit BeautifulSoup war schwieriger und zeitintensiver als nach den ersten erfolgreichen Testläufen vermutet. Erst bei der Datenanalyse mit Pandas bemerkte ich einige Fehlzuordnungen, die ich bereinigen musste (Regex). Entsprechend verunsichert war ich deshalb über die Qualität der Resultate, zumal diese noch deutlicher (im Sinne der These) ausfielen, als erwartet. Deshalb floss noch einiges an Arbeits- bzw. Freizeit in den Plausibilätscheck der Daten. 
+
+Gerne hätte ich noch weitere Auswertungen der MedReg-Daten vorgenommen, vor allem ein Vergleich der Entwicklung über verschiedene Facharztgruppen hinweg und eine Analyse der MedReg-Daten bezogen auf die Kantone oder Regionen mit Geopandas. 
+
+Doch nach den Erfahrungen beim aufwändigen Parsen und Bereinigen der Psychiatrie-Daten musste ich darauf verzichten. Zudem erlauben diesbezüglich auch die Daten zu den Assistenzärzten Aussagen über die Fachrichtungen und unterschiedliche Versorgung der Regionen. 
 Für solche Auswertungen könnte ich später sicher auf die grosse Vorarbeit zurückgreifen. 
 
 Im Fernsehen ist ja normalerweise die Recherche 10-30% des gesamten Arbeitsaufwands, der Rest ist Organisation, Dreh, Schnitt und Postproduction. Hier war's mal fast umgekehrt, trotz über 15 Beitragsminuten, alleine bei «Puls». 
