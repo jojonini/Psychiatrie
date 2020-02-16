@@ -1,5 +1,8 @@
-# Psychiatrie
+# Schweizer Psychiatrie im Notstand
  Abschlussarbeit von Jörg Niggli, CAS Datenjournalismus 2019/2020
+
+Ausgerechnet in der Psychiatrie, wo die Sprache und das kulturelle Verständnis wichtig sind, hat es immer weniger Schweizer Ärzte. In die Lücke springen Psychiaterinnen und Psychiater aus dem Ausland ...
+
 
 ### Die publizierten Beiträge und Artikel
 
@@ -75,7 +78,7 @@ Diese Zahlen lagen im Januar für das Jahr 2019 bereits vor. Sie werden von den 
 
 
 ### Arbeitsprotokoll
-**Bitte festhalten: Python-Anfänger und TV-Produktion!**
+**Bitte festhalten: Viele Daten, Python-Anfänger und TV-Produktion!**
 
 Der Aufwand für die Beschaffung und Auswertung der Daten lag deutlich höher als ursprünglich erwartet, obschon ich letztendlich auf einige Auswertungen verzichtete. Andererseits habe ich mich sehenden Auges in diese Aufgabe gestürzt, auch um das alles mal durchzuziehen und den maximalen Lerneffekt zu haben. Mir war aus dem Kurs bewusst: Als Python-Anfänger verbringt man schnell einmal Stunden beim Coden, vielleicht ohne am Schluss wirklich weiter zu sein. 
 
@@ -88,12 +91,12 @@ Für solche Auswertungen könnte ich später sicher auf die grosse Vorarbeit zur
 
 Im Fernsehen ist ja normalerweise die Recherche 10-30% des gesamten Arbeitsaufwands, der Rest ist Organisation, Dreh, Schnitt und Postproduction. Hier war's mal fast umgekehrt, trotz über 15 Beitragsminuten, alleine bei «Puls». 
 
-Flott hingegen lief die Analyse der im Januar aufgestöberten SIWF-Daten zu den Assistenzärzten, die ich dank Pandas zügig bearbeiten konnte. 
+Ganz flott hingegen lief die Analyse der im Januar aufgestöberten SIWF-Daten zu den Assistenzärzten, die ich dank Pandas zügig auswerten konnte. 
 
 **1\. Phase: Scraper entwickeln**
 
-| Datum                        | Was                                                                                                   | Aufwand |
-|------------------------------|-------------------------------------------------------------------------------------------------------|
+| Datum | Tätigkeit | Aufwand (h) |
+| -------- | ---- | ------------- |
 | 15\.10\.2019                 | Grundrecherche: Berichte, Artikel, Datenquellen explorieren                                           | 8       |
 | 18\.10\.2019                 | Erste Datenanalysen mit MedReg\-Rohdaten BAG \(Excel\), Code für Scraper von PsyReg                   | 6       |
 | 24\.10\.2019                 | Code entwickeln für Scraper PsyReg, Testlauf                                                          | 8       |
@@ -112,8 +115,8 @@ Flott hingegen lief die Analyse der im Januar aufgestöberten SIWF-Daten zu den 
 
 **2\. Phase: MedReg Re\-Scraping, Parsing, Auswertung, Umsetzung**
 
-| Datum                                                         | Was                                                                                                   | Aufwand |
-|--------------------|--------------------------------------------------------------------------------------|----|
+| Datum | Tätigkeit | Aufwand (h)|
+| -------- | ---- | ------------- |
 | 3\.1\.2020         | Grobe Auswertung der Daten aus dem MedReg\-Scraping 2019                             | 2  |
 | 11\.1\.2020        | Erneutes Scraping des MedReg \(während 2 Tage\), erste Checks                        | 8  |
 | 13\.1\.2020        | Re\-Scraping MedReg fehlender Datensätze                                             | 2  |
