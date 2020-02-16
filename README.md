@@ -103,7 +103,7 @@ Ganz flott hingegen lief die Analyse der im Januar aufgestöberten SIWF-Daten zu
 **1\. Phase: Scraper entwickeln**
 
 | Datum | Tätigkeit | Aufwand (h)|
-|--------|----------------|:------|
+|-------|-----------------|:------|
 | 15\.10\.2019                 | Grundrecherche: Berichte, Artikel, Datenquellen explorieren                                           | 8       |
 | 18\.10\.2019                 | Erste Datenanalysen mit MedReg\-Rohdaten BAG \(Excel\), Code für Scraper von PsyReg                   | 6       |
 | 24\.10\.2019                 | Code entwickeln für Scraper PsyReg, Testlauf                                                          | 8       |
@@ -123,7 +123,7 @@ Ganz flott hingegen lief die Analyse der im Januar aufgestöberten SIWF-Daten zu
 **2\. Phase: MedReg Re\-Scraping, Parsing, Auswertung, Umsetzung**
 
 | Datum | Tätigkeit | Aufwand (h)|
-|--------|---------------|:------|
+|-------|-----------------|:------|
 | 3\.1\.2020         | Grobe Auswertung der Daten aus dem MedReg\-Scraping 2019                             | 2  |
 | 11\.1\.2020        | Erneutes Scraping des MedReg \(während 2 Tage\), erste Checks                        | 8  |
 | 13\.1\.2020        | Re\-Scraping MedReg fehlender Datensätze                                             | 2  |
