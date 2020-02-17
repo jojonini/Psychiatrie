@@ -1,4 +1,4 @@
-# Psychiatrie im Notstand
+# Ärzte-Notstand in der Psychiatrie
 
 Ausgerechnet in der Psychiatrie, wo die Sprache und das kulturelle Verständnis wichtig sind, hat es immer weniger Schweizer Ärzte. In die Lücke springen Psychiaterinnen und Psychiater aus dem Ausland ...
 
@@ -15,11 +15,13 @@ Ausgerechnet in der Psychiatrie, wo die Sprache und das kulturelle Verständnis 
 
 [Tageschau 13:00, 17.2.2020](https://www.srf.ch/play/tv/tagesschau/video/tagesschau-vom-17-02-2020-mittagsausgabe?id=e62d6d19-00ab-4081-a6db-28bebbe06a21&startTime=306)
 
-Radio SRF 1, Interview mit Jörg Niggli, 17.2.2020, ca. 16:40, leider noch kein Link verfügbar 
+Radio SRF 1, Interview mit Jörg Niggli, 17.2.2020, ca. 16:40, kein Link verfügbar 
+
 
 
 ### Ausgangsthese
 Trotz weltweit höchster Psychiatriedichte «importiert» die Schweiz weiterhin viele Psychiaterinnen und Psychiater aus dem Ausland, mit dem Problem, dass viele davon das wichtigste Behandlungsinstrument, die Sprache, nur teilweise beherrschen. Besonders Institutionen, die schwere Fälle behandeln, müssen vermehrt auf Ärzte zurückgreifen, die auch aus nicht-deutschsprachigen Ländern kommen. 
+
 
 ### Einschätzung von Aufwand und Ertrag (zu Beginn)
 Es war mir von Beginn weg klar, dass dies ein umfangreiches und potentiell ausuferndes Projekt werden kann. Das BAG lehnte es ab, die MedReg-Daten komplett als anonymisiertes Datenfile bereit zu stellen. Deshalb entschied ich mich für ein Scraping der gesamten Datenbank. Ich würde so einerseits über die aktuellsten Daten bis Ende 2019 verfügen sowie auch personenbezogene Auswertungen vornehmen können. Ein gezieltes Scraping z.B. nur der Ärzteschaft erwies sich als nicht möglich. 
@@ -31,10 +33,12 @@ Ich entscheid mich aus zwei Gründen trotzdem für das Vorhaben:
 ![Spider](graphics/spider.jpg)
 
 
+
 ### Knackpunkte
 - Schwierige Fokussierung auf einen Teilaspekt
 - wie lässt sich der Aspekt der Fehlversorgung (viele Psychiater, aber nicht am richtigen Ort) mit Daten belegen, bzw. überhaupt thematisieren?
 - Gerade Kliniken arbeiten viele Ärzte im psychiatrischen Bereich, die den Facharzttitel noch nicht erhalten haben oder evtl. auch gar nicht anstreben. Wie komme ich da an die richtigen Zahlen?
+
 
 
 ### Briefing-Personen
@@ -55,6 +59,8 @@ Chefärztin Psychiatrie-Dienste Süd des Kantons St. Gallen, einer Klinik mit ei
 * Gründe für das mangelnde Interesse der Schweizer Ärztinnen und Ärzte: zu wenig Ärzte überhaupt in der Schweiz, durch Zulassungsbeschränkung. Prestige ist nicht so hoch, Facharzt mit 6 Jahren lang und Löhne im Vergleich relativ tief.
 * In der Klinik bleiben viele Ärztinnen und Ärzte am wenigsten. Die Arbeitsbedingungen sind mit Notfall- und Nachtdiensten stressiger. Ambulatorien sind beliebter. Viele ausgebildeten Psychiater lassen sich später auch in eigener Praxis nieder. 
 
+
+
 ### Die Datenquellen
 Obschon das Gesundheitswesen einen wachsenden Brocken unserer Volkswirtschaft darstellt (rund 12% des BIP) und die Kosten jährlich mehr steigen als die Teuerung, gibt es dazu in vielen Bereichen nur unzureichende oder sogar widersprüchliche Daten. Das ist leider auch bei den Ärzten nicht anders. Das fängt schon bei der Zahl an, wie viele Ärztinnen und Ärzte in welchem Bereich, in welchem Umfang berufstätig sind. 
 
@@ -73,12 +79,12 @@ Da es bei meiner Recherche nicht um die Anzahl der berufstätigen Psychiaterinne
 
 Alle durchgeführten Analysen mit den MedReg-Daten sind retrospektiv. Das MedReg ist ein Register, dem laufend Daten neu hinzufügt oder gelöscht werden (wenn zum Beispiel eine Personen verstirbt oder wieder auswandert). Dennoch ergaben Quervergleiche meiner Resultate mit Datensätzen des BAG und des BFS aus den Vorjahren nur geringe Abweichungen (bis ca. 1% pro Jahr), die mit Mutationen in der Zwischenzeit zu erklären sind. 
 
-
 **2. Weiterbildungsstatistik des SIWF**
 
 Ein weitere Analyse erfolgte mit den [Daten]( https://www.siwf.ch/themen/statistik.cfm) des Instituts für medizinische Weiter- und Fortbildung SIWF. Sie erlauben einen Blick in die Kliniken und Ambulatorien, wo Assistenzärzte einen grossen Teil der Arbeit an der Front erledigen. Zudem konnte ich diese Daten auch nach regionalen Gesichtspunkten auswerten: welche Kliniken müssen in welchem Masse auf ausländische Ärztinnen und Ärzte setzen, und woher kommen diese (EU oder Nicht-EU)?
 
 Diese Zahlen lagen im Januar für das Jahr 2019 bereits vor. Sie werden von den Kliniken direkt dem SIWF gemeldet. 
+
 
 
 ### Arbeitsprotokoll
@@ -88,7 +94,7 @@ Der Aufwand für die Beschaffung und Auswertung der Daten lag noch höher als ur
 
 Sehr zeitintensiv war bereits das Scraping. Nach viel Vorarbeit in der ersten Phase (2019) dachte ich ja: «Der Code läuft, alle Daten sind da.»
 
-Erst bei den weiteren Analysen (Anfang 2020) bemerkte ich, dass die Error 500-Dateien nicht alles leere IDs waren, wie ursprünglich angenommen, sondern zum Teil auch valide, aber beim Scraper übersprungene Datensätze. So erweiterte ich den Code im Januar und führte das Scraping erneut zweimal durch. 
+Erst bei den weiteren Analysen (Anfang 2020) bemerkte ich, dass die Error 500-Dateien nicht alles leere IDs waren, wie ursprünglich angenommen, sondern zum Teil auch valide, aber beim Scraping übersprungene Datensätze. So erweiterte ich den Code im Januar und führte das Scraping erneut zweimal durch. 
 
 Auch das Parsing der html-Datensätze mit BeautifulSoup war schwieriger und zeitintensiver als nach den ersten erfolgreichen Testläufen vermutet. Erst bei der Datenanalyse mit Pandas bemerkte ich einige Fehlzuordnungen, die ich bereinigen musste (Regex). Entsprechend verunsichert war ich deshalb über die Qualität der Resultate, zumal diese noch deutlicher (im Sinne der These) ausfielen, als erwartet. Deshalb floss noch einiges an Arbeits- bzw. Freizeit in den Plausibilätscheck der Daten. 
 
@@ -157,6 +163,6 @@ Ganz flott hingegen lief die Analyse der im Januar aufgestöberten SIWF-Daten zu
 | 12\.2\.2020        | Schnitt Beitrag 1                                                                    | 8  |
 | 13\.2\.2020        | Schnitt Beitrag 1 und Beitrag Tagesschau, Koordination mit TS                        | 8  |
 | 14\.2\.2020        | 2 Online Artikel, Kasten, Koordination Online, Moderation, Beitragstext              | 10 |
-| 16\.2\.2020        | Online\-Texte redigieren, Input für Moderationem                                     | 3  |
+| 16\.2\.2020        | Online\-Texte redigieren, Input für Moderation, Grafik                                     | 2  |
 | 17\.2\.2020        | Beiträge vertonen, Koordination, Interview für Tagesschau und Radio SRF1                           | 8  |
-|  | Total zweite Phase | 209                                                                                  |
+|  | Total zweite Phase | 208                                                                                  |
