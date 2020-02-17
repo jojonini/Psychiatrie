@@ -70,14 +70,14 @@ Für die Datenrecherche zu den Psychiaterinnen und Psychiatern wertete ich haupt
 
 Im MedReg waren per Ende 2019 insgesamt 5413 Personen registriert, die über einen Facharzttitel «Psychiaterie und Psychotherapie» verfügen. Aus diesem Datenpool wurde ausgewertet, in welchem Land diese Psychiaterinnen und Psychiater ihr Medizinstudium (Arztdiplom) absolviert haben. 
 
-Keine genaue Aussage erlaubt das MedReg hingegen darüber, wie viele dieser registrierten Ärztinnen und Ärzte tatsächlich berufstätig sind. 4415 der 5413 Personen mit anerkanntem Psychiatrie-Facharzttitel verfügten per Ende Jahr gemäss dem Register über eine erteilte Berufsausübungsbewilligung. Allerdings hiess es beim BAG Nachfrage, dass Ärzte auch ohne eine solche Bewilligung tätig sein können, wenn auch nicht in eigener fachlicher Verantwortung. 
+Keine genaue Aussage erlaubt das MedReg hingegen darüber, wie viele dieser registrierten Ärztinnen und Ärzte tatsächlich berufstätig sind. 4415 der 5413 Personen mit anerkanntem Psychiatrie-Facharzttitel verfügten per Ende Jahr gemäss dem Register über eine erteilte Berufsausübungsbewilligung. Allerdings hiess es beim BAG auf meine Nachfrage, dass Ärzte auch ohne eine solche Bewilligung tätig sein können, wenn auch nicht in eigener fachlicher Verantwortung. 
 
 Die Ärztegesellschaft FMH kommt in ihrer [Statistik](https://www.fmh.ch/themen/aerztestatistik/fmh-aerztestatistik.cfm#i131905)
 für 2018 insgesamt auf 3814 Psychiater.  Gemäss dem Gesundheitsobservatorium [Obsan](https://www.bag.admin.ch/dam/bag/de/dokumente/berufe-gesundheitswesen/medizinalberufe/plattform-zukunft-aerztliche-bildung/Bericht%20Obsan_Ermittlung%20des%20zuk%C3%BCnftigen%20Bestands%20und%20Bedarfs%20an%20%C3%84rztinnen%20und%20%C3%84rzten%20nach%20Fachgebiet_Erstes%20Berechnungsmodell.pdf.download.pdf/Bericht%20Obsan_Ermittlung%20des%20zuk%C3%BCnftigen%20Bestands%20und%20Bedarfs%20an%20%C3%84rztinnen%20und%20%C3%84rzten%20nach%20Fachgebiet_Erstes%20Berechnungsmodell.pdf) hat auch diese Statistik Mängel: «Die FMH-Ärztestatistik erfasst gemäss Schätzung ca. 95% der Ärztinnen und Ärzte in der Schweiz. Sie weist insbesondere bei den Assistenzärztinnen und -ärzten sowie den ausländischen Ärztinnen und Ärzten noch Lücken auf.»
 
 Da es bei meiner Recherche nicht um die Anzahl der berufstätigen Psychiaterinnen und Psychiatern sondern um ein Bild über die Herkunft der Ärzte und die Entwicklung des Zustroms ausländischer Fachkräfte ging, erlaubten die MedReg-Daten diesbezüglich die besten Aussagen. Sie werden auch vom Obsan für solche Auswertungen herangezogen. 
 
-Alle durchgeführten Analysen mit den MedReg-Daten sind retrospektiv. Das MedReg ist ein Register, dem laufend Daten neu hinzufügt oder gelöscht werden (wenn zum Beispiel eine Personen verstirbt oder wieder auswandert). Dennoch ergaben Quervergleiche meiner Resultate mit Datensätzen des BAG und des BFS aus den Vorjahren nur geringe Abweichungen (bis ca. 1% pro Jahr), die mit Mutationen in der Zwischenzeit zu erklären sind. 
+Alle durchgeführten Analysen mit den MedReg-Daten sind retrospektiv. Das MedReg ist ein Register, dem laufend Daten neu hinzufügt oder daraus gelöscht werden (wenn zum Beispiel eine Personen verstirbt oder wieder auswandert). Dennoch ergaben Quervergleiche meiner Resultate mit Datensätzen des BAG und des BFS aus den Vorjahren nur geringe Abweichungen (bis ca. 1% pro Jahr), die mit Mutationen in der Zwischenzeit zu erklären sind. 
 
 **2. Weiterbildungsstatistik des SIWF**
 
@@ -90,22 +90,18 @@ Diese Zahlen lagen im Januar für das Jahr 2019 bereits vor. Sie werden von den 
 ### Arbeitsprotokoll
 **Bitte festhalten: Viele Daten, Python-Anfänger und TV-Produktion!**
 
-Der Aufwand für die Beschaffung und Auswertung der Daten lag noch höher als ursprünglich erwartet, obschon ich auf einige Auswertungen verzichtetet habe. Andererseits habe ich mich sehenden Auges in dieses Vorhaben gestürzt, auch um das alles mal durchzuziehen und den maximalen Lerneffekt zu haben. Mir war aus dem Kurs bewusst: Als Python-Anfänger verbringt man schnell einmal Stunden beim Coden, vielleicht ohne am Schluss wirklich weiter zu sein. 
+Der Aufwand für die Beschaffung und Auswertung der Daten lag noch höher als ursprünglich erwartet, obschon ich auf einige Auswertungen verzichtet habe. Andererseits habe ich mich sehenden Auges in dieses Vorhaben gestürzt, auch um das alles mal durchzuziehen und den maximalen Lerneffekt zu haben. Mir war aus dem Kurs bewusst: Als Python-Anfänger verbringt man schnell einmal Stunden beim Coden, vielleicht ohne nachher viel weiter zu sein. 
 
-Sehr zeitintensiv war bereits das Scraping. Nach viel Vorarbeit in der ersten Phase (2019) dachte ich ja: «Der Code läuft, alle Daten sind da.»
+Sehr zeitintensiv war bereits das Scraping. Nach viel Vorarbeit in der ersten Phase (2019) dachte ich ja: «Der Code läuft, alle Daten sind da.» Erst bei den weiteren Analysen (Anfang 2020) bemerkte ich, dass die Error 500-Dateien nicht alles leere IDs waren, wie ursprünglich angenommen, sondern zum Teil auch valide, aber beim Scraping übersprungene Datensätze. So erweiterte ich den Code im Januar und führte das Scraping erneut zweimal durch. 
 
-Erst bei den weiteren Analysen (Anfang 2020) bemerkte ich, dass die Error 500-Dateien nicht alles leere IDs waren, wie ursprünglich angenommen, sondern zum Teil auch valide, aber beim Scraping übersprungene Datensätze. So erweiterte ich den Code im Januar und führte das Scraping erneut zweimal durch. 
-
-Auch das Parsing der html-Datensätze mit BeautifulSoup war schwieriger und zeitintensiver als nach den ersten erfolgreichen Testläufen vermutet. Erst bei der Datenanalyse mit Pandas bemerkte ich einige Fehlzuordnungen, die ich bereinigen musste (Regex). Entsprechend verunsichert war ich deshalb über die Qualität der Resultate, zumal diese noch deutlicher (im Sinne der These) ausfielen, als erwartet. Deshalb floss noch einiges an Arbeits- bzw. Freizeit in den Plausibilätscheck der Daten. 
+Auch das Parsing der html-Datensätze mit BeautifulSoup war schwieriger und zeitintensiver als nach den ersten erfolgreichen Testläufen vermutet. Erst bei der Datenanalyse mit Pandas bemerkte ich einige Fehlzuordnungen, die ich bereinigen musste. Entsprechend verunsichert war ich deshalb über die Qualität der Resultate, zumal diese noch deutlicher (im Sinne der These) ausfielen als erwartet. Deshalb floss noch einiges an Arbeits- bzw. Freizeit in den Plausibilätscheck der Daten. 
 
 Gerne hätte ich noch weitere Auswertungen der MedReg-Daten vorgenommen, vor allem ein Vergleich der Entwicklung über verschiedene Facharztgruppen hinweg und eine Analyse der MedReg-Daten bezogen auf die Kantone oder Regionen mit Geopandas. 
-
-Doch nach den Erfahrungen beim aufwändigen Parsen und Bereinigen der Psychiatrie-Daten musste ich darauf verzichten. Zudem erlauben diesbezüglich auch die Daten zu den Assistenzärzten Aussagen über die Fachrichtungen und unterschiedliche Versorgung der Regionen. 
-Für solche Auswertungen könnte ich später sicher auf die grosse Vorarbeit zurückgreifen. 
+Doch nach den Erfahrungen beim aufwändigen Parsen und Bereinigen der Psychiatrie-Daten musste ich darauf verzichten. Zudem erlauben auch die Daten zu den Assistenzärzten Aussagen über die Fachrichtungen und die unterschiedliche Versorgung der Regionen. 
 
 Im Fernsehen ist ja normalerweise die Recherche 10-30% des gesamten Arbeitsaufwands, der Rest ist Organisation, Dreh, Schnitt und Postproduction. Hier war's mal fast umgekehrt, trotz über 15 Beitragsminuten, alleine bei «Puls». 
 
-Ganz flott hingegen lief die Analyse der im Januar aufgestöberten SIWF-Daten zu den Assistenzärzten, die ich dank Pandas zügig auswerten konnte. 
+Ganz flott hingegen lief die Analyse der im Januar aufgestöberten SIWF-Daten zu den Assistenzärzten, die ich dank Pandas im Nu auswerten konnte. 
 
 **1\. Phase: Scraper entwickeln**
 
