@@ -5,17 +5,18 @@ Ausgerechnet in der Psychiatrie, wo die Sprache und das kulturelle Verständnis 
 
 ### Die publizierten Beiträge und Artikel
 
-[SRF «Puls», 17.2.2020](link)
+[SRF «Puls», 17.2.2020](https://tp.srgssr.ch/p/portal?urn=urn%3Asrf%3Aais%3Avideo%3Ad65b3d8b-8cce-4f04-acdc-ab194a874e4a&autoplay=true&legacy=true&width=640&height=360&playerType=)
 
-[SRF «Tagesschau 19:30», 17.2.2020](Link)
+[SRF «Tagesschau 19:30», inkl. Reaktionen Politik, 17.2.2020](https://www.srf.ch/play/tv/tagesschau/video/tagesschau-vom-17-02-2020-hauptausgabe?id=004bd4e8-f13c-48ab-8795-c60c803dc6e8)
 
-[srf.ch, Online-Artikel 1](Link)
+[srf.ch, Online-Artikel «Immer weniger Schweizer Ärztinnen und Ärzte in der Psychiatrie»](https://www.srf.ch/news/schweiz/heikle-entwicklung-immer-weniger-schweizer-aerztinnen-und-aerzte-in-der-psychiatrie)
 
-[srf.ch, Online-Artikel 2](Link)
+[srf.ch, Online-Artikel «Facharzttitel mit wenig Prestige»](https://www.srf.ch/news/schweiz/schweizer-psychiatrie-facharzttitel-mit-wenig-prestige)
 
-[Tageschau 13:00, 17.2.2020](link)
+[Tageschau 13:00, 17.2.2020](https://www.srf.ch/play/tv/tagesschau/video/tagesschau-vom-17-02-2020-mittagsausgabe?id=e62d6d19-00ab-4081-a6db-28bebbe06a21&startTime=306)
 
-[Radio SRF 1, 17.2.2020](link)
+Radio SRF 1, Interview mit Jörg Niggli, 17.2.2020, ca. 16:40, leider noch kein Link verfügbar 
+
 
 ### Ausgangsthese
 Trotz weltweit höchster Psychiatriedichte «importiert» die Schweiz weiterhin viele Psychiaterinnen und Psychiater aus dem Ausland, mit dem Problem, dass viele davon das wichtigste Behandlungsinstrument, die Sprache, nur teilweise beherrschen. Besonders Institutionen, die schwere Fälle behandeln, müssen vermehrt auf Ärzte zurückgreifen, die auch aus nicht-deutschsprachigen Ländern kommen. 
@@ -157,5 +158,5 @@ Ganz flott hingegen lief die Analyse der im Januar aufgestöberten SIWF-Daten zu
 | 13\.2\.2020        | Schnitt Beitrag 1 und Beitrag Tagesschau, Koordination mit TS                        | 8  |
 | 14\.2\.2020        | 2 Online Artikel, Kasten, Koordination Online, Moderation, Beitragstext              | 10 |
 | 16\.2\.2020        | Online\-Texte redigieren, Input für Moderationem                                     | 3  |
-| 17\.2\.2020        | Beiträge vertonen, Interview für Tagesschau und Radio SRF1                           | 8  |
+| 17\.2\.2020        | Beiträge vertonen, Koordination, Interview für Tagesschau und Radio SRF1                           | 8  |
 |  | Total zweite Phase | 209                                                                                  |
