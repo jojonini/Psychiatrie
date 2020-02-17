@@ -15,7 +15,7 @@ Ausgerechnet in der Psychiatrie, wo die Sprache und das kulturelle Verständnis 
 
 [Tageschau 13:00, 17.2.2020](https://www.srf.ch/play/tv/tagesschau/video/tagesschau-vom-17-02-2020-mittagsausgabe?id=e62d6d19-00ab-4081-a6db-28bebbe06a21&startTime=306)
 
-Radio SRF 1, Interview mit Jörg Niggli, 17.2.2020, ca. 16:40, leider noch kein Link verfügbar 
+Radio SRF 1, Interview mit Jörg Niggli, 17.2.2020, ca. 16:40, kein Link verfügbar 
 
 
 
