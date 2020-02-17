@@ -1,4 +1,4 @@
-# Ärzte Notstand in der Psychiatrie
+# Ärzte-Notstand in der Psychiatrie
 
 Ausgerechnet in der Psychiatrie, wo die Sprache und das kulturelle Verständnis wichtig sind, hat es immer weniger Schweizer Ärzte. In die Lücke springen Psychiaterinnen und Psychiater aus dem Ausland ...
 
