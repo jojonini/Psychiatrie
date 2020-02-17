@@ -94,7 +94,7 @@ Der Aufwand für die Beschaffung und Auswertung der Daten lag noch höher als ur
 
 Sehr zeitintensiv war bereits das Scraping. Nach viel Vorarbeit in der ersten Phase (2019) dachte ich ja: «Der Code läuft, alle Daten sind da.»
 
-Erst bei den weiteren Analysen (Anfang 2020) bemerkte ich, dass die Error 500-Dateien nicht alles leere IDs waren, wie ursprünglich angenommen, sondern zum Teil auch valide, aber beim Scraper übersprungene Datensätze. So erweiterte ich den Code im Januar und führte das Scraping erneut zweimal durch. 
+Erst bei den weiteren Analysen (Anfang 2020) bemerkte ich, dass die Error 500-Dateien nicht alles leere IDs waren, wie ursprünglich angenommen, sondern zum Teil auch valide, aber beim Scraping übersprungene Datensätze. So erweiterte ich den Code im Januar und führte das Scraping erneut zweimal durch. 
 
 Auch das Parsing der html-Datensätze mit BeautifulSoup war schwieriger und zeitintensiver als nach den ersten erfolgreichen Testläufen vermutet. Erst bei der Datenanalyse mit Pandas bemerkte ich einige Fehlzuordnungen, die ich bereinigen musste (Regex). Entsprechend verunsichert war ich deshalb über die Qualität der Resultate, zumal diese noch deutlicher (im Sinne der These) ausfielen, als erwartet. Deshalb floss noch einiges an Arbeits- bzw. Freizeit in den Plausibilätscheck der Daten. 
 
