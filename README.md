@@ -46,10 +46,10 @@ Ich entscheid mich aus zwei Gründen trotzdem für das Vorhaben:
 **Briefing Person 1: Thomas Ihde**
 
 Chefarzt Psychiatriestation Spital FMI (Berner Oberland) sowie Präsident der Patientenorganisation Pro Mente Sana 
-* Fremdsprachige Psychiater: ja, relativ häufiges Problem. immer wieder auch von Patienten angesprochen. Selbst bei deutschen Ärzten ein Problem, da nicht alle Dialekt sprechen bzw. gut verstehen. 
+* Fremdsprachige Psychiater: ja, relativ häufiges Problem, immer wieder auch von Patienten bei Pro Mente Sana angesprochen. Selbst bei deutschen Ärzten ein Problem, da nicht alle Dialekt sprechen bzw. gut verstehen. 
 * Beurteilung, ob jemand psychotisch ist oder nicht: äusserst heikel, wenn jemand Sprache nicht gut versteht oder spricht
 * wegen der grossen Nachfrage arbeiten gewisse Ärzte in der Psychiatrie, die eigentlich eine andere Fachrichtung bevorzugen würden
-* Eigentlich kein Mangel (wie vom Psychiatrieverband SGPP behauptet), sondern eine Fehlversorgung, da regional sehr unterschiedlich: in urbanen Zentren viele, auf dem Land zu wenige, in eigenen Praxen viele, in Klinken zu wenige. Andere Länder sind viel weniger ärztezentriert sondern breiter aufgestellt, wo auch Psychologinnen oder Pflegefachpersonen Funktionen übernehmen, die in Schweizer Kliniken (Assistenz-)Ärzte innehaben.
+* Eigentlich kein Mangel an Ärzten, sondern eine Fehlversorgung, da regional sehr unterschiedlich: in urbanen Zentren viele, auf dem Land zu wenige, in eigenen Praxen viele, in Klinken zu wenige. Andere Länder sind viel weniger ärztezentriert sondern breiter aufgestellt, wo auch Psychologinnen oder Pflegefachpersonen Funktionen übernehmen, die in Schweizer Kliniken (Assistenz-)Ärzte innehaben.
 
 **Briefing Person 2; Angela Brucher**
 
