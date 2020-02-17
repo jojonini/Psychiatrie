@@ -163,6 +163,6 @@ Ganz flott hingegen lief die Analyse der im Januar aufgestöberten SIWF-Daten zu
 | 12\.2\.2020        | Schnitt Beitrag 1                                                                    | 8  |
 | 13\.2\.2020        | Schnitt Beitrag 1 und Beitrag Tagesschau, Koordination mit TS                        | 8  |
 | 14\.2\.2020        | 2 Online Artikel, Kasten, Koordination Online, Moderation, Beitragstext              | 10 |
-| 16\.2\.2020        | Online\-Texte redigieren, Input für Moderationem                                     | 3  |
+| 16\.2\.2020        | Online\-Texte redigieren, Input für Moderation, Grafik                                     | 2  |
 | 17\.2\.2020        | Beiträge vertonen, Koordination, Interview für Tagesschau und Radio SRF1                           | 8  |
-|  | Total zweite Phase | 209                                                                                  |
+|  | Total zweite Phase | 208                                                                                  |
